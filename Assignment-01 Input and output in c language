@@ -1,0 +1,78 @@
+#include<stdio.h>
+int main(){
+    printf("Hello Students");
+    return 0;
+}  // write a program to print Hello Students on the screen.
+
+//Write a program to print Hello in the first line and Students in the second line.
+#include<stdio.h>
+int main(){
+    printf("Hello \n Students");
+    return 0;
+}
+
+// write a program to print "MySirG" on the screen.(Remember to print double quotes)
+#include<stdio.h>
+int main(){
+    printf("\"MySirG \" ");
+    return 0;
+}
+
+//WAP to find the area of the circle.
+#include<stdio.h>
+int main(){
+    int r,pi=3.14, area;
+    printf("Enter the radius of the circle");
+    scanf("%d",&r);
+    area= pi*r*r;
+    printf("The area of the circle is %d",area);
+    return 0;
+}//Expected output format-"Area of circle is A having the radious R". Replace A with area 
+//& R with radius
+
+//WAP to print the length of string using printf function.
+#include<stdio.h>
+int main(){
+    char = "KAJAL";
+    printf("The length of string is %d",sizeof(char));
+    return 0;
+}
+
+//WAP to print the nameof the user in double quotes.
+#include<stdio.h>
+int main(){
+    printf("\"Hello pratibha \"");
+    return 0;
+}
+//WAP to print "%d" on the screen.
+#include<stdio.h>
+int main(){
+    printf("\"%d \"");
+    return 0;
+}
+
+//WAP to print "\\" on the screen.
+
+//WAP to take date as an input in below given format and convert the date format and display the result as given below.
+#include<stdio.h>
+int main(){
+    int date,month,year;
+    printf("Enter the date, month and year");
+    scanf("%d",&date,&month,&year);
+    printf("date-%d, month-%d, year-%d",date,month,year);
+} 
+
+#include<stdio.h>
+int main(){
+    int HH,MM;
+    printf("Enter the hour and minute");
+    scanf("%d:%d",&HH,&MM);
+    printf("%d hour and %d minutes",HH,MM);
+}
+// Find output of below code.
+#include<stdio.h>
+int main(){
+    int x = printf("ineuron");
+    printf("%d",&x);
+    return 0;
+}
